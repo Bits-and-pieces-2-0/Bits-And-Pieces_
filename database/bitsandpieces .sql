@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2021 at 04:54 AM
+-- Generation Time: May 30, 2021 at 06:07 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -121,6 +121,7 @@ CREATE TABLE `registeredusers` (
 --
 
 INSERT INTO `registeredusers` (`id`, `name`, `emailId`, `phone`, `pswd`, `status`, `createdAt`) VALUES
+(1, 'sonal', 'sonalanand102@gmail.com', 6201796405, '1234', 1, '2021-05-30 04:06:47'),
 (7, 'saurabh kumar', 'saurabhprakash1@gmail.com', 8709919014, 'd79c8788088c2193f0244d8f1f36d2db', 1, '2021-05-30 02:33:53');
 
 -- --------------------------------------------------------
