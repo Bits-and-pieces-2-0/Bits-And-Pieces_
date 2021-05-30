@@ -138,7 +138,7 @@
                         }
                             if(isset($_POST['login_btn'])){
                                 $loginEmail=$_POST['loginEmail'];
-                                $password=$_POST['password'];
+                                $password=md5($_POST['password']);
 
                                 $log="SELECT * FROM `registeredusers` WHERE emailId='$loginEmail' AND pswd='$password'";
                                 $logQ=mysqli_query($conn,$log);
@@ -235,8 +235,8 @@
             $username=$_POST['username'];
             $email=$_POST['email'];
             $phn=$_POST['phn'];
-            $pswd=$_POST['pswd'];
-            $cPswd=$_POST['cPswd'];
+            $pswd=md5($_POST['pswd']);
+            $cPswd=md5($_POST['cPswd']);
 
             $sel="SELECT * FROM `registeredusers` WHERE emailId='".$email."' or pswd='".$pswd."'";
             $selQ=mysqli_query($conn,$sel);
