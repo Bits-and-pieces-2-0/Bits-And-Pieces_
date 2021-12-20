@@ -121,8 +121,8 @@ CREATE TABLE `registeredusers` (
 --
 
 INSERT INTO `registeredusers` (`id`, `name`, `emailId`, `phone`, `pswd`, `status`, `createdAt`) VALUES
-(1, 'sonal', 'sonalanand102@gmail.com', 6201796405, '1234', 1, '2021-05-30 04:06:47'),
-(7, 'saurabh kumar', 'saurabhprakash1@gmail.com', 8709919014, 'd79c8788088c2193f0244d8f1f36d2db', 1, '2021-05-30 02:33:53');
+(1, 'sonal', 'sonalanand102@gmail.com', 1111111111, '1234', 1, '2021-05-30 04:06:47'),
+(7, 'saurabh kumar', 'saurabhprakash@gmail.com', 9876543210, 'd79c8788088c2193f0244d8f1f36d2db', 1, '2021-05-30 02:33:53');
 
 -- --------------------------------------------------------
 
